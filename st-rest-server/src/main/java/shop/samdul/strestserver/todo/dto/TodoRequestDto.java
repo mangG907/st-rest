@@ -1,0 +1,14 @@
+package shop.samdul.strestserver.todo.dto;
+
+import lombok.Data;
+import lombok.ToString;
+
+import java.time.LocalDateTime;
+
+@Data
+@ToString
+public class TodoRequestDto {
+    private String subject;
+    private String body;
+
+}
